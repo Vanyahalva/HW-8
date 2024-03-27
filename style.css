@@ -1,0 +1,42 @@
+/* Псевдокласи стану */
+.monday:hover {
+    background-color: lightblue;
+  }
+  
+  .tuesday:focus {
+    font-weight: bold;
+  }
+  
+  .wednesday:active {
+    transform: scale(1.1);
+  }
+  
+  .thursday:visited {
+    text-decoration: line-through;
+  }
+  
+  .friday:disabled {
+    opacity: 0.5;
+  }
+  
+  /* Структурні псевдокласи */
+  .lessons-container li:first-child {
+    color: red;
+  }
+  
+  .lessons-container li:last-child {
+    color: blue;
+  }
+  
+  .lessons-container li:nth-child(odd) {
+    background-color: lightgreen;
+  }
+  
+  .lessons-container li:nth-child(3n) {
+    background-color: lightyellow;
+  }
+  
+  .lessons-container li:nth-last-child(2) {
+    text-transform: uppercase;
+  }
+  
